@@ -2,4 +2,8 @@ function smallBig(arr){
     return [Math.min(...arr), Math.max(...arr)]
 }
 
-smallBig([1,2,3,4])
+
+console.log(smallBig([0,0,0,0]))
+
+
+module.exports=smallBig
